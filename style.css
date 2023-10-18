@@ -5,7 +5,7 @@ html  {
 }
 
 header {
- height: 10vh;
+ height: 9vh;
  display: flex;
  flex-direction:column;
  align-content: flex-start;
@@ -53,7 +53,6 @@ main{
     border-radius: 25px;
     background-color: white;
     text-emphasis-color: rgb(219, 15, 15);
- 
 }
 
 button {
@@ -79,8 +78,7 @@ footer{
     position: absolute;
     bottom: 0%;
     height: 50px;
-    padding: 7px 0px;
-    margin-top: 150px;
+    padding: 7px 0px 25px;
 }
 
 p {
@@ -113,15 +111,6 @@ footer ul li {
 
     main {
         margin: 50px;
-    }
-
-    #caja1 {
-        width: 100%;
-        height: 50px;
-    }
-
-    #input-buscador {
-        width: 70%;
     }
 
     footer {
