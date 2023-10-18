@@ -1,6 +1,7 @@
 html  {
     font-family: 'Roboto', sans-serif;
-    background-image: url(moleculas.jpg); 
+    background-image: url(moleculas.jpg);
+   
 }
 
 header {
@@ -21,8 +22,10 @@ body{
     margin: 0px;
 }
 
+
 main{
-    height: 30vh;
+    margin: 150px;
+    height: 150px;
     padding: 55px;
     display: flex;
     flex-direction: column;
@@ -72,7 +75,10 @@ button {
 
 
 footer{
-    height: 12vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    height: 50px;
     background-color: #f2f2f2; 
     color:rgb(134, 132, 132);
     padding: 7px 0px;
@@ -82,6 +88,11 @@ footer{
 p {
     display: inline;
     padding: 8px 0px 0px 10px;
+}
+
+footer ul{
+    margin: 10px;
+    padding-left: 0px;
 }
 
 footer ul li {
@@ -95,4 +106,10 @@ footer ul li {
 #derecha{
     float:right;
     padding: 0px;  
+}
+
+@media(max-width:500px){
+    body{
+             background-color: red;
+    } 
 }
